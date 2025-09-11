@@ -95,7 +95,7 @@ ao3.org
 archiveofourown.org
 www.archiveofourown.org
 
-# ===== DNS-over-HTTPS Providers (to stop bypass) =====
+# ===== DNS-over-HTTPS Providers =====
 dns.google
 cloudflare-dns.com
 mozilla.cloudflare-dns.com
@@ -103,3 +103,23 @@ doh.opendns.com
 dns.quad9.net
 security.cloudflare-dns.com
 dns.adguard.com
+
+# ===== Regex Catch-All (for future-proofing) =====
+(^|\\.)tiktok\\.com$
+(^|\\.)tiktokcdn\\.com$
+(^|\\.)youtube\\.com$
+(^|\\.)ytimg\\.com$
+(^|\\.)yt3\\.ggpht\\.com$
+(^|\\.)googleapis\\.com$
+(^|\\.)facebook\\.com$
+(^|\\.)fbcdn\\.net$
+(^|\\.)instagram\\.com$
+(^|\\.)cdninstagram\\.com$
+(^|\\.)twitter\\.com$
+(^|\\.)x\\.com$
+(^|\\.)twimg\\.com$
+(^|\\.)poe\\.com$
+(^|\\.)character\\.ai$
+(^|\\.)statusapp\\.ai$
+(^|\\.)ao3\\.org$
+(^|\\.)archiveofourown\\.org$
