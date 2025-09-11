@@ -35,7 +35,7 @@ yt3.ggpht.com
 youtubei.googleapis.com
 youtube.googleapis.com
 
-# ===== Facebook =====
+# ===== Facebook (feeds/ads blocked, Messenger allowed) =====
 facebook.com
 www.facebook.com
 m.facebook.com
@@ -45,27 +45,16 @@ business.facebook.com
 developers.facebook.com
 apps.facebook.com
 l.facebook.com
-fbcdn.net
-scontent.xx.fbcdn.net
-static.xx.fbcdn.net
 connect.facebook.net
-graph.facebook.com
 pixel.facebook.com
 creative.facebook.com
 ads.facebook.com
 an.facebook.com
-z-m-gateway.facebook.com
-edge-mqtt.facebook.com
-z-m.facebook.com
 
-# ===== Instagram =====
+# ===== Instagram (feeds/ads blocked, DMs allowed) =====
 instagram.com
 www.instagram.com
 m.instagram.com
-graph.instagram.com
-i.instagram.com
-cdninstagram.com
-scontent.cdninstagram.com
 video.cdninstagram.com
 ads.instagram.com
 
@@ -104,22 +93,20 @@ dns.quad9.net
 security.cloudflare-dns.com
 dns.adguard.com
 
-# ===== Regex Catch-All (for future-proofing) =====
-(^|\\.)tiktok\\.com$
-(^|\\.)tiktokcdn\\.com$
-(^|\\.)youtube\\.com$
-(^|\\.)ytimg\\.com$
-(^|\\.)yt3\\.ggpht\\.com$
-(^|\\.)googleapis\\.com$
-(^|\\.)facebook\\.com$
-(^|\\.)fbcdn\\.net$
-(^|\\.)instagram\\.com$
-(^|\\.)cdninstagram\\.com$
-(^|\\.)twitter\\.com$
-(^|\\.)x\\.com$
-(^|\\.)twimg\\.com$
-(^|\\.)poe\\.com$
-(^|\\.)character\\.ai$
-(^|\\.)statusapp\\.ai$
-(^|\\.)ao3\\.org$
-(^|\\.)archiveofourown\\.org$
+# ===== Regex Catch-All (future-proofing) =====
+(^|\.)tiktok\.com$
+(^|\.)tiktokcdn\.com$
+(^|\.)youtube\.com$
+(^|\.)ytimg\.com$
+(^|\.)yt3\.ggpht\.com$
+(^|\.)googleapis\.com$
+(^|\.)facebook\.com$
+(^|\.)instagram\.com$
+(^|\.)twitter\.com$
+(^|\.)x\.com$
+(^|\.)twimg\.com$
+(^|\.)poe\.com$
+(^|\.)character\.ai$
+(^|\.)statusapp\.ai$
+(^|\.)ao3\.org$
+(^|\.)archiveofourown\.org$
