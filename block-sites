@@ -1,3 +1,4 @@
+# ===== TikTok =====
 tiktok.com
 www.tiktok.com
 m.tiktok.com
@@ -15,6 +16,8 @@ ibytedtos.com
 ibyteimg.com
 muscdn.com
 musical.ly
+
+# ===== YouTube =====
 youtube.com
 www.youtube.com
 m.youtube.com
@@ -31,6 +34,8 @@ i.ytimg.com
 yt3.ggpht.com
 youtubei.googleapis.com
 youtube.googleapis.com
+
+# ===== Facebook =====
 facebook.com
 www.facebook.com
 m.facebook.com
@@ -49,13 +54,22 @@ pixel.facebook.com
 creative.facebook.com
 ads.facebook.com
 an.facebook.com
+z-m-gateway.facebook.com
+edge-mqtt.facebook.com
+z-m.facebook.com
+
+# ===== Instagram =====
 instagram.com
 www.instagram.com
 m.instagram.com
+graph.instagram.com
+i.instagram.com
 cdninstagram.com
 scontent.cdninstagram.com
 video.cdninstagram.com
 ads.instagram.com
+
+# ===== Twitter / X =====
 twitter.com
 www.twitter.com
 mobile.twitter.com
@@ -66,14 +80,26 @@ abs.twimg.com
 pbs.twimg.com
 video.twimg.com
 syndication.twitter.com
+
+# ===== AI Platforms =====
 poe.com
 www.poe.com
 character.ai
 www.character.ai
 beta.character.ai
-ao3.org
-archiveofourown.org
-www.archiveofourown.org
 statusapp.ai
 www.statusapp.ai
 
+# ===== Fanfiction / Erotic Content =====
+ao3.org
+archiveofourown.org
+www.archiveofourown.org
+
+# ===== DNS-over-HTTPS Providers (to stop bypass) =====
+dns.google
+cloudflare-dns.com
+mozilla.cloudflare-dns.com
+doh.opendns.com
+dns.quad9.net
+security.cloudflare-dns.com
+dns.adguard.com
