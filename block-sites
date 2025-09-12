@@ -51,12 +51,18 @@ creative.facebook.com
 ads.facebook.com
 an.facebook.com
 
-# ===== Instagram (feeds/ads blocked, DMs allowed) =====
+# ===== Instagram (Complete Block) =====
 instagram.com
 www.instagram.com
 m.instagram.com
+i.instagram.com
+graph.instagram.com
+gateway.instagram.com
+cdninstagram.com
+scontent.cdninstagram.com
 video.cdninstagram.com
 ads.instagram.com
+*.fna.fbcdn.net
 
 # ===== Twitter / X =====
 twitter.com
