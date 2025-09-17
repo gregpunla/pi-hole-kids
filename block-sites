@@ -88,6 +88,14 @@ www.socialai.app
 api.socialai.app
 cdn.socialai.app
 
+# ===== Status Sims / Status AI variant =====
+statussims.app
+www.statussims.app
+prod.statussims.app
+api.statussims.app
+cdn.statussims.app
+assets.statussims.app
+
 # ===== POE (Quora) =====
 poe.com
 www.poe.com
@@ -153,6 +161,7 @@ one.one.one.one
 (^|\.)statusapp\.ai$
 (^|\.)statusgame\.ai$
 (^|\.)socialai\.app$
+(^|\.)statussims\.app$
 
 # POE (Quora)
 (^|\.)poe\.com$
