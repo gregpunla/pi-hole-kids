@@ -35,7 +35,7 @@ yt3.ggpht.com
 youtubei.googleapis.com
 youtube.googleapis.com
 
-# ===== Facebook (feeds/ads blocked, Messenger allowed) =====
+# ===== Facebook (feeds/ads blocked; Messenger allowed) =====
 facebook.com
 www.facebook.com
 m.facebook.com
@@ -50,8 +50,9 @@ pixel.facebook.com
 creative.facebook.com
 ads.facebook.com
 an.facebook.com
+# NOTE: do NOT block (so Messenger works): messenger.com, edge-mqtt.facebook.com, fbcdn.net, scontent.xx.fbcdn.net, static.xx.fbcdn.net, graph.facebook.com
 
-# ===== Instagram (Complete Block) =====
+# ===== Instagram (COMPLETE BLOCK) =====
 instagram.com
 www.instagram.com
 m.instagram.com
@@ -62,7 +63,8 @@ cdninstagram.com
 scontent.cdninstagram.com
 video.cdninstagram.com
 ads.instagram.com
-*.fna.fbcdn.net
+# Block IG media on fbcdn without killing Messenger media:
+# (We won't block all fbcdn.net; see regex section for instagram.*.fbcdn.net)
 
 # ===== Twitter / X =====
 twitter.com
@@ -76,21 +78,44 @@ pbs.twimg.com
 video.twimg.com
 syndication.twitter.com
 
-# ===== AI Platforms =====
+# ===== Status AI / Status Game =====
+statusapp.ai
+www.statusapp.ai
+statusgame.ai
+www.statusgame.ai
+socialai.app
+www.socialai.app
+api.socialai.app
+cdn.socialai.app
+
+# ===== POE (Quora) =====
 poe.com
 www.poe.com
+help.poe.com
+about.poe.com
+# Optional if Poe still loads images:
+quoracdn.net
+qph.cf2.quoracdn.net
+
+# ===== Character.AI =====
 character.ai
 www.character.ai
 beta.character.ai
-statusapp.ai
-www.statusapp.ai
+labs.character.ai
+explore.character.ai
+video.character.ai
+share.character.ai
+events.character.ai
+event.character.ai
+old.character.ai
+about.character.ai
 
 # ===== Fanfiction / Erotic Content =====
 ao3.org
 archiveofourown.org
 www.archiveofourown.org
 
-# ===== DNS-over-HTTPS Providers =====
+# ===== DNS-over-HTTPS Providers (prevent DNS bypass) =====
 dns.google
 cloudflare-dns.com
 mozilla.cloudflare-dns.com
@@ -98,6 +123,9 @@ doh.opendns.com
 dns.quad9.net
 security.cloudflare-dns.com
 dns.adguard.com
+dns-family.adguard.com
+family.cloudflare-dns.com
+one.one.one.one
 
 # ===== Regex Catch-All (future-proofing) =====
 (^|\.)tiktok\.com$
@@ -106,13 +134,45 @@ dns.adguard.com
 (^|\.)ytimg\.com$
 (^|\.)yt3\.ggpht\.com$
 (^|\.)googleapis\.com$
-(^|\.)facebook\.com$
+
+# IMPORTANT: no facebook.com catch-all here (so Messenger hosts stay allowed)
+
+# Instagram complete block (including IG on fbcdn only):
 (^|\.)instagram\.com$
+(^|\.)cdninstagram\.com$
+(^|\.)scontent\.cdninstagram\.com$
+(^|\.)video\.cdninstagram\.com$
+(^|\.)instagram\..*\.fbcdn\.net$
+
+# Twitter / X
 (^|\.)twitter\.com$
 (^|\.)x\.com$
 (^|\.)twimg\.com$
-(^|\.)poe\.com$
-(^|\.)character\.ai$
+
+# Status AI / Status Game
 (^|\.)statusapp\.ai$
+(^|\.)statusgame\.ai$
+(^|\.)socialai\.app$
+
+# POE (Quora)
+(^|\.)poe\.com$
+(^|\.)quoracdn\.net$
+
+# Character.AI
+(^|\.)character\.ai$
+
+# AO3
 (^|\.)ao3\.org$
 (^|\.)archiveofourown\.org$
+
+# DoH catch-alls
+(^|\.)dns\.google$
+(^|\.)cloudflare-dns\.com$
+(^|\.)mozilla\.cloudflare-dns\.com$
+(^|\.)doh\.opendns\.com$
+(^|\.)dns\.quad9\.net$
+(^|\.)security\.cloudflare-dns\.com$
+(^|\.)dns\.adguard\.com$
+(^|\.)dns-family\.adguard\.com$
+(^|\.)family\.cloudflare-dns\.com$
+(^|\.)one\.one\.one\.one$
