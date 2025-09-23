@@ -120,7 +120,6 @@ one.one.one.one
 # ===== Regex Catch-All (future-proofing) =====
 (^|\.)tiktok\.com$
 (^|\.)tiktokcdn\.com$
-(^|\.)youtube\.com$
 (^|\.)ytimg\.com$
 (^|\.)yt3\.ggpht\.com$
 (^|\.)googleapis\.com$
