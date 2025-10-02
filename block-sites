@@ -17,19 +17,16 @@ ibyteimg.com
 muscdn.com
 musical.ly
 
-# ===== Instagram (COMPLETE BLOCK) =====
-instagram.com
-www.instagram.com
-m.instagram.com
-i.instagram.com
-graph.instagram.com
-gateway.instagram.com
-cdninstagram.com
-scontent.cdninstagram.com
-video.cdninstagram.com
-ads.instagram.com
-# Block IG media on fbcdn without killing Messenger media:
-# (We won't block all fbcdn.net; see regex section for instagram.*.fbcdn.net)
+# ===== YouTube =====
+youtube.com
+www.youtube.com
+m.youtube.com
+youtu.be
+youtube-nocookie.com
+i.ytimg.com
+ytimg.com
+yt3.ggpht.com
+googlevideo.com
 
 # ===== Twitter / X =====
 twitter.com
@@ -66,7 +63,6 @@ poe.com
 www.poe.com
 help.poe.com
 about.poe.com
-# Optional if Poe still loads images:
 quoracdn.net
 qph.cf2.quoracdn.net
 
@@ -83,12 +79,19 @@ event.character.ai
 old.character.ai
 about.character.ai
 
+# ===== Chai (NSFW AI chat) =====
+chai.ml
+www.chai.ml
+api.chai.ml
+cdn.chai.ml
+chat.chai.ml
+
 # ===== Fanfiction / Erotic Content =====
 ao3.org
 archiveofourown.org
 www.archiveofourown.org
 
-# ===== DNS-over-HTTPS Providers (prevent DNS bypass) =====
+# ===== DNS-over-HTTPS Providers =====
 dns.google
 cloudflare-dns.com
 mozilla.cloudflare-dns.com
@@ -100,45 +103,45 @@ dns-family.adguard.com
 family.cloudflare-dns.com
 one.one.one.one
 
-# ===== Regex Catch-All (future-proofing) =====
+# ===== Regex Catch-All =====
 (^|\.)tiktok\.com$
 (^|\.)tiktokcdn\.com$
+
+# YouTube
+(^|\.)youtube\.com$
+(^|\.)youtu\.be$
+(^|\.)youtube-nocookie\.com$
 (^|\.)ytimg\.com$
 (^|\.)yt3\.ggpht\.com$
-(^|\.)googleapis\.com$
-
-# IMPORTANT: no facebook.com catch-all here (so Messenger hosts stay allowed)
-
-# Instagram complete block (including IG on fbcdn only):
-(^|\.)instagram\.com$
-(^|\.)cdninstagram\.com$
-(^|\.)scontent\.cdninstagram\.com$
-(^|\.)video\.cdninstagram\.com$
-(^|\.)instagram\..*\.fbcdn\.net$
+(^|\.)googlevideo\.com$
 
 # Twitter / X
 (^|\.)twitter\.com$
 (^|\.)x\.com$
 (^|\.)twimg\.com$
 
-# Status AI / Status Game
+# Status AI / Sims
 (^|\.)statusapp\.ai$
 (^|\.)statusgame\.ai$
 (^|\.)socialai\.app$
 (^|\.)statussims\.app$
 
-# POE (Quora)
+# POE
 (^|\.)poe\.com$
 (^|\.)quoracdn\.net$
 
 # Character.AI
 (^|\.)character\.ai$
 
+# Chai (NSFW AI chat)
+(^|\.)chai\.ml$
+(^|\.)chai-research\.com$
+
 # AO3
 (^|\.)ao3\.org$
 (^|\.)archiveofourown\.org$
 
-# DoH catch-alls
+# DoH
 (^|\.)dns\.google$
 (^|\.)cloudflare-dns\.com$
 (^|\.)mozilla\.cloudflare-dns\.com$
