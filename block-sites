@@ -85,13 +85,17 @@ www.chai.ml
 api.chai.ml
 cdn.chai.ml
 chat.chai.ml
+images.chai.ml
+secure-images.chai.ml
+chai-user-service-65663778556.us-central1.run.app
+guanaco-app.chai-research.com
 
 # ===== Fanfiction / Erotic Content =====
 ao3.org
 archiveofourown.org
 www.archiveofourown.org
 
-# ===== DNS-over-HTTPS Providers =====
+# ===== DNS-over-HTTPS Providers (prevent DNS bypass) =====
 dns.google
 cloudflare-dns.com
 mozilla.cloudflare-dns.com
@@ -103,7 +107,9 @@ dns-family.adguard.com
 family.cloudflare-dns.com
 one.one.one.one
 
-# ===== Regex Catch-All =====
+# ===== Regex Catch-All (future-proofing) =====
+
+# TikTok
 (^|\.)tiktok\.com$
 (^|\.)tiktokcdn\.com$
 
@@ -136,6 +142,7 @@ one.one.one.one
 # Chai (NSFW AI chat)
 (^|\.)chai\.ml$
 (^|\.)chai-research\.com$
+(^|\.)us-central1\.run\.app$
 
 # AO3
 (^|\.)ao3\.org$
