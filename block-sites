@@ -138,11 +138,12 @@ one.one.one.one
 # Character.AI
 (^|\.)character\.ai$
 
-# Chai (NSFW AI chat, including Cloud Run backends)
+# Chai (NSFW AI chat)
 (^|\.)chai\.ml$
 (^|\.)chai-research\.com$
-(^|\.)chai.*\.run\.app$
-(^|\.)bot-responder.*\.run\.app$
+
+# Nuclear option: block ALL Google Cloud Run apps (kills Chai backends)
+(^|\.)(.*)\.run\.app$
 
 # AO3
 (^|\.)ao3\.org$
