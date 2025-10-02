@@ -87,7 +87,6 @@ cdn.chai.ml
 chat.chai.ml
 images.chai.ml
 secure-images.chai.ml
-chai-user-service-65663778556.us-central1.run.app
 guanaco-app.chai-research.com
 
 # ===== Fanfiction / Erotic Content =====
@@ -142,7 +141,7 @@ one.one.one.one
 # Chai (NSFW AI chat)
 (^|\.)chai\.ml$
 (^|\.)chai-research\.com$
-(^|\.)us-central1\.run\.app$
+(^|\.)chai.*\.us-central1\.run\.app$
 
 # AO3
 (^|\.)ao3\.org$
