@@ -138,10 +138,11 @@ one.one.one.one
 # Character.AI
 (^|\.)character\.ai$
 
-# Chai (NSFW AI chat)
+# Chai (NSFW AI chat, including Cloud Run backends)
 (^|\.)chai\.ml$
 (^|\.)chai-research\.com$
-(^|\.)chai.*\.us-central1\.run\.app$
+(^|\.)chai.*\.run\.app$
+(^|\.)bot-responder.*\.run\.app$
 
 # AO3
 (^|\.)ao3\.org$
