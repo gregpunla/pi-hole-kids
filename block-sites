@@ -73,4 +73,89 @@ beta.character.ai
 labs.character.ai
 explore.character.ai
 video.character.ai
-shar
+share.character.ai
+events.character.ai
+event.character.ai
+old.character.ai
+about.character.ai
+
+# ===== Chai (NSFW AI chat) =====
+chai.ml
+www.chai.ml
+api.chai.ml
+cdn.chai.ml
+chat.chai.ml
+images.chai.ml
+secure-images.chai.ml
+guanaco-app.chai-research.com
+
+# ===== Fanfiction / Erotic Content =====
+ao3.org
+archiveofourown.org
+www.archiveofourown.org
+
+# ===== DNS-over-HTTPS Providers (prevent DNS bypass) =====
+dns.google
+cloudflare-dns.com
+mozilla.cloudflare-dns.com
+doh.opendns.com
+dns.quad9.net
+security.cloudflare-dns.com
+dns.adguard.com
+dns-family.adguard.com
+family.cloudflare-dns.com
+one.one.one.one
+
+# ===== Regex Catch-All (future-proofing) =====
+
+# TikTok
+(^|\.)tiktok\.com$
+(^|\.)tiktokcdn\.com$
+
+# YouTube
+(^|\.)youtube\.com$
+(^|\.)youtu\.be$
+(^|\.)youtube-nocookie\.com$
+(^|\.)ytimg\.com$
+(^|\.)yt3\.ggpht\.com$
+(^|\.)googlevideo\.com$
+
+# Twitter / X
+(^|\.)twitter\.com$
+(^|\.)x\.com$
+(^|\.)twimg\.com$
+
+# Status AI / Sims
+(^|\.)statusapp\.ai$
+(^|\.)statusgame\.ai$
+(^|\.)socialai\.app$
+(^|\.)statussims\.app$
+
+# POE
+(^|\.)poe\.com$
+(^|\.)quoracdn\.net$
+
+# Character.AI
+(^|\.)character\.ai$
+
+# Chai (NSFW AI chat, including Cloud Run backends)
+(^|\.)chai\.ml$
+(^|\.)chai-research\.com$
+(^|\.)chai.*\.run\.app$
+(^|\.)bot-responder.*\.run\.app$
+
+# AO3
+(^|\.)ao3\.org$
+(^|\.)archiveofourown\.org$
+
+# DoH
+(^|\.)dns\.google$
+(^|\.)cloudflare-dns\.com$
+(^|\.)mozilla\.cloudflare-dns\.com$
+(^|\.)doh\.opendns\.com$
+(^|\.)dns\.quad9\.net$
+(^|\.)security\.cloudflare-dns\.com$
+(^|\.)dns\.adguard\.com$
+(^|\.)dns-family\.adguard\.com$
+(^|\.)family\.cloudflare-dns\.com$
+(^|\.)one\.one\.one\.one$
