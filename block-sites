@@ -17,23 +17,6 @@ ibyteimg.com
 muscdn.com
 musical.ly
 
-# ===== Facebook (feeds/ads blocked; Messenger allowed) =====
-facebook.com
-www.facebook.com
-m.facebook.com
-web.facebook.com
-touch.facebook.com
-business.facebook.com
-developers.facebook.com
-apps.facebook.com
-l.facebook.com
-connect.facebook.net
-pixel.facebook.com
-creative.facebook.com
-ads.facebook.com
-an.facebook.com
-# NOTE: do NOT block (so Messenger works): messenger.com, edge-mqtt.facebook.com, fbcdn.net, scontent.xx.fbcdn.net, static.xx.fbcdn.net, graph.facebook.com
-
 # ===== Instagram (COMPLETE BLOCK) =====
 instagram.com
 www.instagram.com
