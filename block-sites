@@ -116,9 +116,6 @@ one.one.one.one
 (^|\.)youtube\.com$
 (^|\.)youtu\.be$
 (^|\.)youtube-nocookie\.com$
-(^|\.)ytimg\.com$
-(^|\.)yt3\.ggpht\.com$
-(^|\.)googlevideo\.com$
 
 # Twitter / X
 (^|\.)twitter\.com$
