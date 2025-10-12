@@ -97,13 +97,13 @@ old.character.ai
 about.character.ai
 
 # ===== Dokichat =====
-dokichat.club
-www.dokichat.club
-app.dokichat.club
-dokichat.com
-www.dokichat.com
-api.dokichat.club
-events.dokichat.club
+#dokichat.club
+#www.dokichat.club
+#app.dokichat.club
+#dokichat.com
+#www.dokichat.com
+#api.dokichat.club
+#events.dokichat.club
 
 # ===== Chai (NSFW AI chat) =====
 chai.ml
