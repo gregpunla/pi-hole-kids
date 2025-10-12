@@ -1,3 +1,31 @@
+# ===== YouTube =====
+youtube.com
+www.youtube.com
+m.youtube.com
+youtu.be
+youtube-nocookie.com
+youtubei.googleapis.com
+youtube.googleapis.com
+
+# ===== Instagram =====
+instagram.com
+www.instagram.com
+m.instagram.com
+i.instagram.com
+graph.instagram.com
+cdninstagram.com
+instagr.am
+ig.me
+igsonar.com
+
+# ===== Facebook (site only; Messenger not included here) =====
+facebook.com
+www.facebook.com
+m.facebook.com
+web.facebook.com
+fb.com
+www.fb.com
+
 # ===== TikTok =====
 tiktok.com
 www.tiktok.com
@@ -16,17 +44,6 @@ ibytedtos.com
 ibyteimg.com
 muscdn.com
 musical.ly
-
-# ===== YouTube =====
-youtube.com
-www.youtube.com
-m.youtube.com
-youtu.be
-youtube-nocookie.com
-i.ytimg.com
-ytimg.com
-yt3.ggpht.com
-googlevideo.com
 
 # ===== Twitter / X =====
 twitter.com
@@ -79,6 +96,13 @@ event.character.ai
 old.character.ai
 about.character.ai
 
+# ===== Dokichat =====
+dokichat.club
+www.dokichat.club
+app.dokichat.club
+dokichat.com
+www.dokichat.com
+
 # ===== Chai (NSFW AI chat) =====
 chai.ml
 www.chai.ml
@@ -106,47 +130,37 @@ dns-family.adguard.com
 family.cloudflare-dns.com
 one.one.one.one
 
-# ===== Regex Catch-All (future-proofing) =====
-
-# TikTok
-(^|\.)tiktok\.com$
-(^|\.)tiktokcdn\.com$
-
-# YouTube
+# ===== REGEX (wildcard future-proofing) =====
 (^|\.)youtube\.com$
 (^|\.)youtu\.be$
 (^|\.)youtube-nocookie\.com$
-
-# Twitter / X
+(^|\.)youtubei\.googleapis\.com$
+(^|\.)youtube\.googleapis\.com$
+(^|\.)instagram\.com$
+(^|\.)instagr\.am$
+(^|\.)cdninstagram\.com$
+(^|\.)igsonar\.com$
+(^|\.)facebook\.com$
+(^|\.)fb\.com$
+(^|\.)tiktok\.com$
+(^|\.)tiktokcdn\.com$
 (^|\.)twitter\.com$
 (^|\.)x\.com$
 (^|\.)twimg\.com$
-
-# Status AI / Sims
 (^|\.)statusapp\.ai$
 (^|\.)statusgame\.ai$
 (^|\.)socialai\.app$
 (^|\.)statussims\.app$
-
-# POE
 (^|\.)poe\.com$
 (^|\.)quoracdn\.net$
-
-# Character.AI
 (^|\.)character\.ai$
-
-# Chai (NSFW AI chat)
+(^|\.)dokichat\.club$
+(^|\.)dokichat\.com$
 (^|\.)chai\.ml$
 (^|\.)chai-research\.com$
-
-# Nuclear option: block ALL Google Cloud Run apps (kills Chai backends)
 (^|\.)run\.app$
-
-# AO3
 (^|\.)ao3\.org$
 (^|\.)archiveofourown\.org$
-
-# DoH
 (^|\.)dns\.google$
 (^|\.)cloudflare-dns\.com$
 (^|\.)mozilla\.cloudflare-dns\.com$
