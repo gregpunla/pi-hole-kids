@@ -1,3 +1,62 @@
+# ===== YouTube (DISABLED) =====
+#youtube.com
+#www.youtube.com
+#m.youtube.com
+#youtu.be
+#youtube-nocookie.com
+#youtubei.googleapis.com
+#youtube.googleapis.com
+
+# ===== Instagram (DISABLED) =====
+#instagram.com
+#www.instagram.com
+#m.instagram.com
+#i.instagram.com
+#graph.instagram.com
+#cdninstagram.com
+#instagr.am
+#ig.me
+#igsonar.com
+
+# ===== Facebook (DISABLED) =====
+#facebook.com
+#www.facebook.com
+#m.facebook.com
+#web.facebook.com
+#fb.com
+#www.fb.com
+
+# ===== TikTok (DISABLED) =====
+#tiktok.com
+#www.tiktok.com
+#m.tiktok.com
+#api.tiktok.com
+#log.tiktok.com
+#ads.tiktok.com
+#analytics.tiktok.com
+#business.tiktokglobalshop.com
+#tiktokcdn.com
+#tiktokcdn-us.com
+#tiktokcdn-eu.com
+#tiktokcdn-in.com
+#tiktokv.com
+#ibytedtos.com
+#ibyteimg.com
+#muscdn.com
+#musical.ly
+
+# ===== Twitter / X (DISABLED) =====
+#twitter.com
+#www.twitter.com
+#mobile.twitter.com
+#x.com
+#www.x.com
+#api.twitter.com
+#abs.twimg.com
+#pbs.twimg.com
+#video.twimg.com
+#syndication.twitter.com
+
 # ===== Status AI / Status Game =====
 statusapp.ai
 www.statusapp.ai
@@ -122,22 +181,22 @@ newgirlfriend.ai
 www.newgirlfriend.ai
 
 # ===== REGEX (wildcard future-proofing) =====
-(^|\.)youtube\.com$
-(^|\.)youtu\.be$
-(^|\.)youtube-nocookie\.com$
-(^|\.)youtubei\.googleapis\.com$
-(^|\.)youtube\.googleapis\.com$
-(^|\.)instagram\.com$
-(^|\.)instagr\.am$
-(^|\.)cdninstagram\.com$
-(^|\.)igsonar\.com$
-(^|\.)facebook\.com$
-(^|\.)fb\.com$
-(^|\.)tiktok\.com$
-(^|\.)tiktokcdn\.com$
-(^|\.)twitter\.com$
-(^|\.)x\.com$
-(^|\.)twimg\.com$
+#(^|\.)youtube\.com$
+#(^|\.)youtu\.be$
+#(^|\.)youtube-nocookie\.com$
+#(^|\.)youtubei\.googleapis\.com$
+#(^|\.)youtube\.googleapis\.com$
+#(^|\.)instagram\.com$
+#(^|\.)instagr\.am$
+#(^|\.)cdninstagram\.com$
+#(^|\.)igsonar\.com$
+#(^|\.)facebook\.com$
+#(^|\.)fb\.com$
+#(^|\.)tiktok\.com$
+#(^|\.)tiktokcdn\.com$
+#(^|\.)twitter\.com$
+#(^|\.)x\.com$
+#(^|\.)twimg\.com$
 (^|\.)statusapp\.ai$
 (^|\.)statusgame\.ai$
 (^|\.)socialai\.app$
@@ -189,7 +248,6 @@ www.newgirlfriend.ai
 (^|\.)charstar\.ai$
 (^|\.)luvr\.ai$
 (^|\.)newgirlfriend\.ai$
-
 
 # ===== REGEX (NEW) =====
 (^|\.)3hentai\.net$
