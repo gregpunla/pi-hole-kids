@@ -376,5 +376,17 @@ www.newgirlfriend.ai
 # ===== Emochi World / Mokio AI =====
 mokio.ai
 www.mokio.ai
+app.mokio.ai
 report.mokio.ai
+
+# ===== Original Emochi AI / FlowGPT =====
+emochi.com
+www.emochi.com
+emochi.ai
+www.emochi.ai
+emochi-backend-k8s.flowgpt.com
+
+# ===== Pi-hole Regex Deny Rules =====
 (^|\.)mokio\.ai$
+(^|\.)emochi\.com$
+(^|\.)emochi\.ai$
